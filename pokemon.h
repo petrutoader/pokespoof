@@ -14,7 +14,6 @@ typedef enum {
   SEEN_FIRST_WAIT,
   SENDING_RANDOM_DATA,
   WAITING_TO_SEND_DATA,
-  START_SENDING_DATA,
   SENDING_DATA,
   SENDING_PATCH_DATA,
   TRADE_PENDING,
@@ -46,5 +45,4 @@ typedef unsigned char byte;
 
 #define TRADE_CENTRE_WAIT 0xFD
 
-#endif /* POKEMON_H_ */
-
+#endif
